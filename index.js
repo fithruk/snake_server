@@ -1,5 +1,5 @@
 const PORT = process.env.PORT || 5000;
-const keys = require("./keys/keys.dev");
+const keys = require("./keys/index");
 const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
